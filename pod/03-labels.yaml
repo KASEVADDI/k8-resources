@@ -3,11 +3,11 @@ kind: Pod
 metadata:
   name: label-pod
   labels:
-    course: docker
-    duration: 25hr
-    trainer: siva
+    cloud: aws
+    zone: ap-south1
+    region: mumbai
   annotations:
-    org.docker.kubernetes.image.maintainer: siva
+    org.docker.kubernetes.image.maintainer: kasevaddi
 spec:
   containers:
   - name: nginx
