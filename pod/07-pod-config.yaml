@@ -8,15 +8,15 @@
 #   - name: ngin
 #     image: nginx
 #     env:
-#     - name: course
+#     - name: kasevaddi
 #       valueFrom:
 #         configMapKeyRef:
-#           name: course-config
-#           key: course
+#           name: kasevaddi-config
+#           key: kasevaddiM
 #     - name: duration
 #       valueFrom:
 #         configMapKeyRef:
-#           name: course-config
+#           name: kasevaddi-config
 #           key: duration
 ---
 apiVersion: v1
@@ -29,6 +29,6 @@ spec:
     image: nginx
     envFrom:
       - configMapRef:
-            name: course-config
+            name: kasevaddi-config
     
     
