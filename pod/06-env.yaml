@@ -8,12 +8,12 @@ spec:
     image: nginx
     env:
     - name: course
-      value: docker
-    - name: trainer
-      value: siva
-    - name: duration
-      value: 25hrs
+      value: aws
+    - name: cloud
+      value: kasevaddi
+    - name: gcp
+      value: cloud
     - name: DB_HOST
       value: db.admin.com
     - name: username
-      value: sivakumar
+      value: kasevaddi
